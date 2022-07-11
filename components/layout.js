@@ -5,7 +5,7 @@ import utilStyles from '../styles/utils.module.css';
 import Image from 'next/image';
 
 const name='Devesh Tripathi';
-export const siteTitle = 'Tutorial Next.js website';
+export const siteTitle = 'Personal website';
 
 
 export default function Layout({children,home}) {
