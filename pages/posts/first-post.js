@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function FirstPost() {
     return(
-        <>
+        <div>
             <h1>First Post
             <h2>
                 <Link href="/">
@@ -10,6 +10,6 @@ export default function FirstPost() {
                 </Link>
             </h2>
             </h1>
-        </>
+        </div>
     );
 }
