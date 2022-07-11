@@ -1,9 +1,8 @@
 import styles from './layout.module.css';
 import Head from 'next/head';
 import Link from 'next/link';
-import utilStyles from '../styles/utils.modules.css';
+import utilStyles from '../styles/utils.module.css';
 import Image from 'next/image';
-
 
 const name='Devesh Tripathi';
 export const siteTitle = 'Tutorial Next.js website';
@@ -30,7 +29,7 @@ export default function Layout({children,home}) {
                         <Image
                             priority
                             src='/images/profile.jpg'
-                            className={utilsStyles.borderCircle}
+                            className={utilStyles.borderCircle}
                             height={144}
                             width={144}
                             alt={name}
